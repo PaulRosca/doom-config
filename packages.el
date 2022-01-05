@@ -50,3 +50,4 @@
 ;(unpin! t)
 (package! evil-tutor)
 (package! latex-preview-pane)
+(package! nvm)
