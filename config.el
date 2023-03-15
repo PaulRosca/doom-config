@@ -26,7 +26,9 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-outrun-electric)
+(setq doom-font (font-spec :family "SauceCodePro Nerd Font Mono"))
 
+(setq gc-cons-threshold 200000000)
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
@@ -53,3 +55,5 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(setq +format-with-lsp nil)
